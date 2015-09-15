@@ -44,7 +44,7 @@
 SYNTHESIZE_SINGLETON_FOR_CLASS_PROTOTYPE(OALAudioSession);
 
 
-#ifdef __IPHONE_OS_VERSION_MAX_ALLOWED
+#ifdef OAL_IOS
 
 /** \cond */
 /**
