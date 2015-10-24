@@ -36,7 +36,7 @@
 /**
  * Handles the audio session and interrupts.
  */
-#ifdef OAL_IOS
+#ifdef TARGET_OS_IOS
 @interface OALAudioSession : NSObject <AVAudioSessionDelegate, OALSuspendManager>
 #else
 @interface OALAudioSession : NSObject <OALSuspendManager>
@@ -137,7 +137,7 @@
  */
 @property(nonatomic,readwrite,assign) bool handleInterruptions;
 
-#ifdef OAL_IOS
+#ifdef TARGET_OS_IOS
 /** Delegate that will receive all audio session events (WEAK reference).
  */
 @property(nonatomic,readwrite,assign) id<AVAudioSessionDelegate> audioSessionDelegate;
