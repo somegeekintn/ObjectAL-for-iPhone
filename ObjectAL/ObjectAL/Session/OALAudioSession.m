@@ -44,7 +44,7 @@
 SYNTHESIZE_SINGLETON_FOR_CLASS_PROTOTYPE(OALAudioSession);
 
 
-#ifdef TARGET_OS_IOS
+#if TARGET_OS_IOS
 
 /** \cond */
 /**

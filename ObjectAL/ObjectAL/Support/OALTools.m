@@ -142,7 +142,7 @@ static NSBundle* g_defaultBundle;
 	}
 }
 
-#ifdef TARGET_OS_IOS
+#if TARGET_OS_IOS
 + (void) notifyAudioSessionError:(OSStatus)errorCode
 					 function:(const char*) function
 				  description:(NSString*) description, ...
