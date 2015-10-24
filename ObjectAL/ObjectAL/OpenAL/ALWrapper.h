@@ -30,7 +30,7 @@
 #import <Foundation/Foundation.h>
 #import <OpenAL/al.h>
 #import <OpenAL/alc.h>
-#ifdef __IPHONE_OS_VERSION_MAX_ALLOWED
+#if TARGET_OS_IPHONE
 #import <OpenAL/oalMacOSX_OALExtensions.h>
 #else
 #import <OpenAL/MacOSX_OALExtensions.h>
